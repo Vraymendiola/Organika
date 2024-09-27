@@ -6,3 +6,20 @@
     display: inline-block;
     margin: 12px;
 }
+
+.product img {
+    width: 280px;
+}
+
+.product:hover {
+    border-color: #85a38a;
+    -webkit-box-shadow: -61px 10px 135px -39px rgba(0,0,0,0.75);
+-moz-box-shadow: -61px 10px 135px -39px rgba(0,0,0,0.75);
+box-shadow: -61px 10px 135px -39px rgba(0,0,0,0.75);
+}
+
+.product .controls {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4px;
+}
